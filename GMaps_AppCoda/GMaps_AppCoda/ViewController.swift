@@ -1,14 +1,12 @@
 //
 //  ViewController.swift
-//  AppCodaMap
+//  GMaps_AppCoda
 //
-//  Created by Joy Umali on 5/1/17.
+//  Created by Joy Umali on 5/2/17.
 //  Copyright © 2017 Joy Umali. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
-import GooglePlaces
 
 class ViewController: UIViewController {
 

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppCodaMap.xcscheme</key>
+		<key>GMaps_AppCoda.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E0A387C01EB7AAD7008AC81B</key>
+		<key>E0A387E61EB87102008AC81B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

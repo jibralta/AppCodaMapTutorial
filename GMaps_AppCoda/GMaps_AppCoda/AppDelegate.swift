@@ -1,27 +1,21 @@
 //
 //  AppDelegate.swift
-//  AppCodaMap
+//  GMaps_AppCoda
 //
-//  Created by Joy Umali on 5/1/17.
+//  Created by Joy Umali on 5/2/17.
 //  Copyright © 2017 Joy Umali. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
-import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let googleMapsApiKey = "AIzaSyDRURHav5SyGM9HYXIzKOZ2hcd3U4XP7yk"
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        GMSServices.provideAPIKey(googleMapsApiKey)
-        GMSPlacesClient.provideAPIKey(googleMapsApiKey)
         return true
     }
 

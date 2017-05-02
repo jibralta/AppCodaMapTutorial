@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0A387C01EB7AAD7008AC81B"
-               BuildableName = "AppCodaMap.app"
-               BlueprintName = "AppCodaMap"
-               ReferencedContainer = "container:AppCodaMap.xcodeproj">
+               BlueprintIdentifier = "E0A387E61EB87102008AC81B"
+               BuildableName = "GMaps_AppCoda.app"
+               BlueprintName = "GMaps_AppCoda"
+               ReferencedContainer = "container:GMaps_AppCoda.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0A387C01EB7AAD7008AC81B"
-            BuildableName = "AppCodaMap.app"
-            BlueprintName = "AppCodaMap"
-            ReferencedContainer = "container:AppCodaMap.xcodeproj">
+            BlueprintIdentifier = "E0A387E61EB87102008AC81B"
+            BuildableName = "GMaps_AppCoda.app"
+            BlueprintName = "GMaps_AppCoda"
+            ReferencedContainer = "container:GMaps_AppCoda.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0A387C01EB7AAD7008AC81B"
-            BuildableName = "AppCodaMap.app"
-            BlueprintName = "AppCodaMap"
-            ReferencedContainer = "container:AppCodaMap.xcodeproj">
+            BlueprintIdentifier = "E0A387E61EB87102008AC81B"
+            BuildableName = "GMaps_AppCoda.app"
+            BlueprintName = "GMaps_AppCoda"
+            ReferencedContainer = "container:GMaps_AppCoda.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0A387C01EB7AAD7008AC81B"
-            BuildableName = "AppCodaMap.app"
-            BlueprintName = "AppCodaMap"
-            ReferencedContainer = "container:AppCodaMap.xcodeproj">
+            BlueprintIdentifier = "E0A387E61EB87102008AC81B"
+            BuildableName = "GMaps_AppCoda.app"
+            BlueprintName = "GMaps_AppCoda"
+            ReferencedContainer = "container:GMaps_AppCoda.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

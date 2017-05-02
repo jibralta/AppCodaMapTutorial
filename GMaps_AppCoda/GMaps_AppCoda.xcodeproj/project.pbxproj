@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0A387C51EB7AAD7008AC81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A387C41EB7AAD7008AC81B /* AppDelegate.swift */; };
-		E0A387C71EB7AAD7008AC81B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A387C61EB7AAD7008AC81B /* ViewController.swift */; };
-		E0A387CA1EB7AAD7008AC81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A387C81EB7AAD7008AC81B /* Main.storyboard */; };
-		E0A387CC1EB7AAD7008AC81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A387CB1EB7AAD7008AC81B /* Assets.xcassets */; };
-		E0A387CF1EB7AAD7008AC81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A387CD1EB7AAD7008AC81B /* LaunchScreen.storyboard */; };
+		E0A387EB1EB87102008AC81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A387EA1EB87102008AC81B /* AppDelegate.swift */; };
+		E0A387ED1EB87102008AC81B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A387EC1EB87102008AC81B /* ViewController.swift */; };
+		E0A387F01EB87102008AC81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A387EE1EB87102008AC81B /* Main.storyboard */; };
+		E0A387F21EB87102008AC81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A387F11EB87102008AC81B /* Assets.xcassets */; };
+		E0A387F51EB87102008AC81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A387F31EB87102008AC81B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E0A387C11EB7AAD7008AC81B /* AppCodaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCodaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0A387C41EB7AAD7008AC81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0A387C61EB7AAD7008AC81B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E0A387C91EB7AAD7008AC81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0A387CB1EB7AAD7008AC81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0A387CE1EB7AAD7008AC81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E0A387D01EB7AAD7008AC81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A387E71EB87102008AC81B /* GMaps_AppCoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMaps_AppCoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A387EA1EB87102008AC81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0A387EC1EB87102008AC81B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0A387EF1EB87102008AC81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0A387F11EB87102008AC81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0A387F41EB87102008AC81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0A387F61EB87102008AC81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E0A387BE1EB7AAD7008AC81B /* Frameworks */ = {
+		E0A387E41EB87102008AC81B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,73 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E0A387B81EB7AAD7008AC81B = {
+		E0A387DE1EB87102008AC81B = {
 			isa = PBXGroup;
 			children = (
-				E0A387C31EB7AAD7008AC81B /* AppCodaMap */,
-				E0A387C21EB7AAD7008AC81B /* Products */,
+				E0A387E91EB87102008AC81B /* GMaps_AppCoda */,
+				E0A387E81EB87102008AC81B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E0A387C21EB7AAD7008AC81B /* Products */ = {
+		E0A387E81EB87102008AC81B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0A387C11EB7AAD7008AC81B /* AppCodaMap.app */,
+				E0A387E71EB87102008AC81B /* GMaps_AppCoda.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0A387C31EB7AAD7008AC81B /* AppCodaMap */ = {
+		E0A387E91EB87102008AC81B /* GMaps_AppCoda */ = {
 			isa = PBXGroup;
 			children = (
-				E0A387C41EB7AAD7008AC81B /* AppDelegate.swift */,
-				E0A387C61EB7AAD7008AC81B /* ViewController.swift */,
-				E0A387C81EB7AAD7008AC81B /* Main.storyboard */,
-				E0A387CB1EB7AAD7008AC81B /* Assets.xcassets */,
-				E0A387CD1EB7AAD7008AC81B /* LaunchScreen.storyboard */,
-				E0A387D01EB7AAD7008AC81B /* Info.plist */,
+				E0A387EA1EB87102008AC81B /* AppDelegate.swift */,
+				E0A387EC1EB87102008AC81B /* ViewController.swift */,
+				E0A387EE1EB87102008AC81B /* Main.storyboard */,
+				E0A387F11EB87102008AC81B /* Assets.xcassets */,
+				E0A387F31EB87102008AC81B /* LaunchScreen.storyboard */,
+				E0A387F61EB87102008AC81B /* Info.plist */,
 			);
-			path = AppCodaMap;
+			path = GMaps_AppCoda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0A387C01EB7AAD7008AC81B /* AppCodaMap */ = {
+		E0A387E61EB87102008AC81B /* GMaps_AppCoda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0A387D31EB7AAD7008AC81B /* Build configuration list for PBXNativeTarget "AppCodaMap" */;
+			buildConfigurationList = E0A387F91EB87102008AC81B /* Build configuration list for PBXNativeTarget "GMaps_AppCoda" */;
 			buildPhases = (
-				E0A387BD1EB7AAD7008AC81B /* Sources */,
-				E0A387BE1EB7AAD7008AC81B /* Frameworks */,
-				E0A387BF1EB7AAD7008AC81B /* Resources */,
+				E0A387E31EB87102008AC81B /* Sources */,
+				E0A387E41EB87102008AC81B /* Frameworks */,
+				E0A387E51EB87102008AC81B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AppCodaMap;
-			productName = AppCodaMap;
-			productReference = E0A387C11EB7AAD7008AC81B /* AppCodaMap.app */;
+			name = GMaps_AppCoda;
+			productName = GMaps_AppCoda;
+			productReference = E0A387E71EB87102008AC81B /* GMaps_AppCoda.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E0A387B91EB7AAD7008AC81B /* Project object */ = {
+		E0A387DF1EB87102008AC81B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Joy Umali";
 				TargetAttributes = {
-					E0A387C01EB7AAD7008AC81B = {
+					E0A387E61EB87102008AC81B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = L8R43DTS44;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E0A387BC1EB7AAD7008AC81B /* Build configuration list for PBXProject "AppCodaMap" */;
+			buildConfigurationList = E0A387E21EB87102008AC81B /* Build configuration list for PBXProject "GMaps_AppCoda" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = E0A387B81EB7AAD7008AC81B;
-			productRefGroup = E0A387C21EB7AAD7008AC81B /* Products */;
+			mainGroup = E0A387DE1EB87102008AC81B;
+			productRefGroup = E0A387E81EB87102008AC81B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0A387C01EB7AAD7008AC81B /* AppCodaMap */,
+				E0A387E61EB87102008AC81B /* GMaps_AppCoda */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E0A387BF1EB7AAD7008AC81B /* Resources */ = {
+		E0A387E51EB87102008AC81B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A387CF1EB7AAD7008AC81B /* LaunchScreen.storyboard in Resources */,
-				E0A387CC1EB7AAD7008AC81B /* Assets.xcassets in Resources */,
-				E0A387CA1EB7AAD7008AC81B /* Main.storyboard in Resources */,
+				E0A387F51EB87102008AC81B /* LaunchScreen.storyboard in Resources */,
+				E0A387F21EB87102008AC81B /* Assets.xcassets in Resources */,
+				E0A387F01EB87102008AC81B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E0A387BD1EB7AAD7008AC81B /* Sources */ = {
+		E0A387E31EB87102008AC81B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A387C71EB7AAD7008AC81B /* ViewController.swift in Sources */,
-				E0A387C51EB7AAD7008AC81B /* AppDelegate.swift in Sources */,
+				E0A387ED1EB87102008AC81B /* ViewController.swift in Sources */,
+				E0A387EB1EB87102008AC81B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0A387C81EB7AAD7008AC81B /* Main.storyboard */ = {
+		E0A387EE1EB87102008AC81B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0A387C91EB7AAD7008AC81B /* Base */,
+				E0A387EF1EB87102008AC81B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E0A387CD1EB7AAD7008AC81B /* LaunchScreen.storyboard */ = {
+		E0A387F31EB87102008AC81B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0A387CE1EB7AAD7008AC81B /* Base */,
+				E0A387F41EB87102008AC81B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E0A387D11EB7AAD7008AC81B /* Debug */ = {
+		E0A387F71EB87102008AC81B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		E0A387D21EB7AAD7008AC81B /* Release */ = {
+		E0A387F81EB87102008AC81B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,27 +259,27 @@
 			};
 			name = Release;
 		};
-		E0A387D41EB7AAD7008AC81B /* Debug */ = {
+		E0A387FA1EB87102008AC81B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L8R43DTS44;
-				INFOPLIST_FILE = AppCodaMap/Info.plist;
+				INFOPLIST_FILE = GMaps_AppCoda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoyUmali.AppCodaMap;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoyUmali.GMaps-AppCoda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		E0A387D51EB7AAD7008AC81B /* Release */ = {
+		E0A387FB1EB87102008AC81B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L8R43DTS44;
-				INFOPLIST_FILE = AppCodaMap/Info.plist;
+				INFOPLIST_FILE = GMaps_AppCoda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JoyUmali.AppCodaMap;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoyUmali.GMaps-AppCoda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -288,24 +288,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0A387BC1EB7AAD7008AC81B /* Build configuration list for PBXProject "AppCodaMap" */ = {
+		E0A387E21EB87102008AC81B /* Build configuration list for PBXProject "GMaps_AppCoda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0A387D11EB7AAD7008AC81B /* Debug */,
-				E0A387D21EB7AAD7008AC81B /* Release */,
+				E0A387F71EB87102008AC81B /* Debug */,
+				E0A387F81EB87102008AC81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0A387D31EB7AAD7008AC81B /* Build configuration list for PBXNativeTarget "AppCodaMap" */ = {
+		E0A387F91EB87102008AC81B /* Build configuration list for PBXNativeTarget "GMaps_AppCoda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0A387D41EB7AAD7008AC81B /* Debug */,
-				E0A387D51EB7AAD7008AC81B /* Release */,
+				E0A387FA1EB87102008AC81B /* Debug */,
+				E0A387FB1EB87102008AC81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E0A387B91EB7AAD7008AC81B /* Project object */;
+	rootObject = E0A387DF1EB87102008AC81B /* Project object */;
 }
