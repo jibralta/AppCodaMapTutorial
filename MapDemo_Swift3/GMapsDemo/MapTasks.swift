@@ -50,7 +50,8 @@ class MapTasks: NSObject {
     
     func geocodeAddress(_ address: String!, withCompletionHandler completionHandler: @escaping ((_ status: String, _ success: Bool) -> Void)) {
         if let lookupAddress = address {
-            let geocodeURLString = baseURLGeocode + "address=" + lookupAddress
+            var geocodeURLString = baseURLGeocode + "address=" + lookupAddress
+            geocodeURLString = geocodeURLString.addingPercentEncoding( withAllowedCharacters: .urlQueryAllowed)!
             let geocodeURL = URL(string: geocodeURLString)
             
             DispatchQueue.main.async(execute: { () -> Void in
@@ -97,7 +98,8 @@ class MapTasks: NSObject {
         if let originLocation = origin {
             if let destinationLocation = destination {
                 var directionsURLString = baseURLDirections + "origin=" + originLocation + "&destination=" + destinationLocation
-                
+                directionsURLString = directionsURLString.addingPercentEncoding( withAllowedCharacters: .urlQueryAllowed)!
+
                 if let routeWaypoints = waypoints {
                     directionsURLString += "&waypoints=optimize:true"
                     
